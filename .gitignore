@@ -1,0 +1,42 @@
+# Carpetas de datos de Kedro
+/data/01_raw/*
+/data/02_intermediate/*
+/data/03_primary/*
+/data/04_feature/*
+/data/05_model_input/*
+/data/06_models/*
+/data/07_model_output/*
+/data/08_reporting/*
+
+# No ignores README.md si lo quieres documentar en data
+!/data/**/README.md
+
+# Archivos de configuración sensibles
+conf/local/**
+conf/**/credentials.yml
+
+# Archivos de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.log
+
+# Entornos virtuales
+.venv/
+venv/
+ENV/
+env/
+*.env
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints
+
+# VSCode y otros IDEs
+.vscode/
+.idea/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
