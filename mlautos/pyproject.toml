@@ -28,3 +28,6 @@ attr = "mlautos.__version__"
 [tool.setuptools.packages.find]
 where = [ "src",]
 namespaces = false
+
+[tool.kedro_telemetry]
+project_id = "7b4d161d214c453a947f6a31c12952a2"
