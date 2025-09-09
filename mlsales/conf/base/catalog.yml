@@ -2,3 +2,4 @@
 #
 # Documentation for this file format can be found in "The Data Catalog"
 # Link: https://docs.kedro.org/en/stable/data/data_catalog.html
+#conf/base/catalog.yml → aquí defines dónde están y cómo se guardan tus datasets (CSV, Parquet, Pickle, JSON, etc.).

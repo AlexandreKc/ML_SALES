@@ -1,6 +1,5 @@
 """
-This is a boilerplate pipeline 'pipeline_ml'
-generated using Kedro 1.0.0
+pipeline.py → aquí “armas” el pipeline conectando tus funciones (nodes) con los datasets del catálogo.
 """
 
 from kedro.pipeline import Node, Pipeline  # noqa
