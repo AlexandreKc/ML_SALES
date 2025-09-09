@@ -9,7 +9,7 @@
 #/data/08_reporting/*
 
 # No ignores README.md si lo quieres documentar en data
-!/data/**/README.md
+#!/data/**/README.md
 
 # Archivos de configuración sensibles
 conf/local/**
