@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 requires-python = ">=3.9"
-name = "mlautos"
+name = "mlsales"
 readme = "README.md"
 dynamic = [ "version",]
 dependencies = [ "ipython>=8.10", "jupyterlab>=3.0", "notebook", "kedro~=1.0.0",]
@@ -13,8 +13,8 @@ dependencies = [ "ipython>=8.10", "jupyterlab>=3.0", "notebook", "kedro~=1.0.0",
 mlautos = "mlautos.__main__:main"
 
 [tool.kedro]
-package_name = "mlautos"
-project_name = "mlautos"
+package_name = "mlsales"
+project_name = "mlsales"
 kedro_init_version = "1.0.0"
 tools = "['None']"
 example_pipeline = "False"
@@ -23,7 +23,7 @@ source_dir = "src"
 [project.entry-points."kedro.hooks"]
 
 [tool.setuptools.dynamic.version]
-attr = "mlautos.__version__"
+attr = "mlsales.__version__"
 
 [tool.setuptools.packages.find]
 where = [ "src",]
